@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<title>USDK</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="shortcut icon" href="" />
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
+	
+</head>
+<body>
+<div class="usdk_login">
+	<div class="lg_con">
+	    <div class="lg_left">
+	    	<div class="gg font">
+				<p>这里是广告语</p>
+	    		<p>你可以下写点啥</p>
+			</div>
+			<img src="images/pic.png" alt="" class="pic">
+	    </div>
+		<div class="lg_rt">
+			<img src="images/usdk.png" alt="" class="title">
+			<p>后台打包系统</p>
+			<div class="u_input">
+			    <img src="images/user.png" alt="" class="peo">
+				<input type="text" placeholder="请输入账号" class="user" onkeyup="reset(this.id)" id="name"/>
+				<img src="images/close.png" alt="" class="close close1">
+			</div>
+			<div class="p_input">
+				<img src="images/key.png" alt="" class="key">
+				<input type="password" placeholder="请输入密码" onkeyup="reset2(this.id)" id="pwd">
+				<img src="images/close.png" alt="" class="close close2"></a>
+			</div>
+			<a href="javascript:;" class="enter">
+				<img src="images/login.png" alt="">
+			</a>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(".close").click(function(){
+		$(this).parent().find("input").val("");
+		$(this).hide();
+	}); 
+	function reset(x){
+		var y=document.getElementById(x).value;
+		if(y!=""){
+			$(".close1").show();
+		}else{
+			$(".close1").hide();
+		}
+	}
+	function reset2(z){
+		var v=document.getElementById(z).value;
+		if(v!=""){
+			$(".close2").show();
+		}else{
+			$(".close2").hide();
+		}
+	}
+    $("input").focus(function(){
+    	$(this).parent().toggleClass("active");
+    	$(this).parent().siblings().removeClass("active");
+    })
+    $("input").blur(function(){
+    	$(this).parent().removeClass("active");
+    })
+</script>
+</html>

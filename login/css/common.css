@@ -1,0 +1,383 @@
+address,
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+select,
+td,
+textarea,
+th,
+ul {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: "微软雅黑"
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+select,
+textarea {
+	font-size: 100%;
+	vertical-align: middle
+}
+
+dl,
+li,
+ol,
+ul {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+fieldset,
+img {
+	border: none
+}
+
+img {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top
+}
+
+address,
+em {
+	font-style: normal
+}
+
+sub,
+sup {
+	vertical-align: baseline
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+q:before {
+	content: ""
+}
+
+q:after {
+	content: ""
+}
+
+button {
+	cursor: pointer
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none
+}
+
+textarea {
+	word-wrap: break-word;
+	resize: none
+}
+.wrap{
+	width:1200px;
+	height:100%;
+	position:relative;
+	margin:0 auto;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.clear {
+	clear: both
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+.nav {
+	width: 100%;
+	height: 80px;
+	background:url(../images/nav.png) no-repeat center;
+	position: relative;
+	z-index: 10;
+}
+.nav_bg{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity: .3;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.nav .nav_top {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative
+}
+
+.nav .nav_top .nav_logo {
+	display: block;
+	width: 96px;
+	height: 96px;
+	position: absolute;
+	top: 14px;
+	left: 25px
+}
+
+.nav .nav_top .logo_txt {
+	width: 165px;
+	height: 43px;
+	margin-top: 26px;
+	margin-left: 133px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold
+}
+
+.nav .nav_top .logo_txt .p_02 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 5px
+}
+
+.nav .link {
+	overflow: hidden
+}
+
+.nav .link ul {
+	width: 100%;
+	height: 100%;
+	margin-right: 6px
+}
+
+.nav .link ul li {
+	width: 73px;
+	margin: 0 42px;
+	float: left;
+	text-align: center;
+	font-size: 17px;
+	padding-top: 24px;
+	height: 53px
+}
+
+.nav .link ul li.active {
+	border-bottom: 3px solid #fff
+}
+.nav .link ul li:hover{
+	border-bottom: 3px solid #fff
+}
+.nav .link ul li.kun a img{
+	cursor: pointer;
+	margin-top: -24px;
+}
+.nav .link ul li.active a {
+	font-weight: bold
+}
+
+.nav .link ul li.active a i {
+	color: #fff
+}
+
+.nav .link ul li a {
+	display: block;
+	width: 73px;
+	height: 56px;
+	color: #fff;
+	font-weight: normal
+}
+
+.nav .link ul li a i {
+	color: #bcc2cc;
+	font-weight: normal
+}
+
+.nav .link ul li i {
+	display: block;
+	font-style: normal;
+	font-size: 10px;
+	padding-top: 5px
+}
+
+.ent-max {
+	width: 516px;
+	height: 186px;
+	z-index: 9;
+	position: absolute;
+	top: 100px;
+	right: -8px;
+	display: none;
+}
+
+.del {
+	position: absolute;
+	right: 21px;
+	z-index: 10;
+	top: 16px;
+	cursor: pointer;
+}
+/*宣传页面*/
+.c_bg{
+	width:100%;
+	height:1080px;
+	background:url(../images/conduct.jpg) no-repeat center;
+	overflow: hidden;
+	position:relative;
+}
+.float {
+	width: 201px;
+	height: 490px;
+	background: url("../images/float.png") no-repeat center;
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -245px;
+	z-index: 99;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out
+}
+
+.float-cont {
+	width: 150px;
+	height: 410px;
+	border: 1px solid transparent;
+	position: relative;
+	margin-top: 67px;
+	margin-left: 8px
+}
+.float-cont .float_p{
+	text-align: center;
+	font-size:18px;
+	color:#32150a;
+	font-weight:bold;
+	margin-top:32px;
+}
+.float-cont .float_p1{
+	font-size:14px;
+	text-align: center;
+	color:#32150a
+}
+.erweima,
+.tap img,
+.txt img {
+	display: block;
+	margin: auto
+}
+
+.txt img {
+	margin-top: 30px
+}
+
+.erweima {
+	margin: 5px auto
+}
+
+.btns,
+.ico {
+	width: 131px;
+	margin: auto;
+	/*border-bottom: 1px dashed #e1b188*/
+}
+
+.float_btn {
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: -23px;
+	cursor: pointer
+}
+
+.btns img {
+	margin-bottom:10px;
+}
+
+.tap{
+	margin-bottom:9px;
+}
+
+.ico a {
+	margin: 9px 3px;
+	display: inline-block
+}
+
+.ico a:nth-of-type(1) i,
+.ico a:nth-of-type(2) i {
+	display: block;
+	width: 128px;
+	height: 139px;
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 4px;
+	display: none
+}
+
+.ico a:nth-of-type(1) i {
+	background: url("../images/erweima_down.png") no-repeat center;
+	background-size: 100% 100%
+}
+
+.ico a:nth-of-type(2) i {
+	background: url("../images/qq_down.png") no-repeat center;
+	background-size: 100% 100%
+}
+
+.ico a:nth-of-type(1):hover i {
+	display: block
+}
+
+.ico a:nth-of-type(2):hover i {
+	display: block
+}
+
+.ico a:nth-of-type(2) {
+	margin: 0 5px
+}
+
+.op .float {
+	transform: translate3d(201px, 0, 0)
+}
